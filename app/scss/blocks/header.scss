@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 15px 47px;
+  }
+}

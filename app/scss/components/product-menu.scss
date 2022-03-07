@@ -1,0 +1,40 @@
+.product-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 74px;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 18px;
+    }
+  }
+
+  &__btn {
+    @extend %dmsans-700;
+    color: $button;
+    font-size: 16px;
+    line-height: 1.1;
+
+    background-color: #fff;
+    border: none;
+
+    transition: color .4s;
+    cursor: pointer;
+
+    &:hover {
+      color: $hover-link;
+    }
+
+    &:focus {
+      color: #fcd7b6;
+    }
+
+    &:active {
+      color: $hover-link;
+    }
+  }
+
+  .mixitup-control-active {
+    color: $hover-link;
+  }
+}
