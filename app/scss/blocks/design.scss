@@ -1,0 +1,15 @@
+.design {
+  margin-bottom: 120px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px 30px;
+
+    margin-bottom: 120px;
+  }
+}

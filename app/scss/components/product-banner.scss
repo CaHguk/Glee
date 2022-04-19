@@ -1,0 +1,81 @@
+.product-banner {
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 100px;
+  padding: 100px 70px 80px;
+
+  background-color: #feefe2;
+
+  &__img {
+    position: absolute;
+
+    bottom: 80px;
+    left: 80px;
+  }
+
+  &__info {
+    padding: 0 30px;
+
+    max-width: 500px;
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+
+    font-size: 26px;
+    color: $subtitle;
+    line-height: 1.23;
+    @extend %dmsans-700;
+  }
+
+  &__desc {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    color: $subtitle;
+    line-height: 1.87;
+     @extend %rubik-400;
+  }
+
+  &__link {
+    position: relative;
+
+    display: inline-block;
+
+    padding: 24px 85px 24px 19px;
+
+    font-size: 16px;
+    color: #436372;
+
+    border: 1px solid #b3b7b5;
+    border-radius: 5px;
+    background-color: transparent;
+
+    svg {
+      position: absolute;
+
+      right: 19px;
+      top: 28px;
+    }
+  }
+
+
+}
+.Rectangle_2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(67, 99, 114);
+  border-radius: 5px;
+  background-color: rgba(36, 63, 77, 0);
+  opacity: 0.4;
+  position: absolute;
+  left: 1406px;
+  top: 2596px;
+  width: 184px;
+  height: 64px;
+  z-index: 135;
+}

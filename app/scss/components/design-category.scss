@@ -1,0 +1,42 @@
+.design-category {
+  position: relative;
+
+  min-width: 370px;
+  height: 245px;
+  padding: 40px 35px;
+
+  background-color: #f8f8f8;
+
+  &__wrapper {
+    max-width: 190px;
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    line-height: 1.2;
+    color: $title;
+    @extend %dmsans-700;
+  }
+
+  &__info {
+    font-size: 16px;
+    line-height: 1;
+    color: #a9bfcb;
+    @extend %dmsans-700;
+  }
+
+  &__img {
+    position: absolute;
+
+    right: 0;
+    bottom: 25px;
+    
+    &--right-space {
+      right: 40px;
+    }
+  }
+  
+}

@@ -1,0 +1,37 @@
+.blog {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  &__link {
+    color: #262626;
+    @extend %dmsans-700;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  &__link-text {
+    padding-right: 10px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -209px;
+  }
+
+  &__item {
+    max-width: 370px;
+    border-radius: 4px;
+  }
+
+  &__partners {
+
+    padding: 259px 0 50px;
+    background-color: #fef7f0;
+  }
+}

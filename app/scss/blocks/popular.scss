@@ -1,5 +1,5 @@
 .popular {
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
 
   &__title {
     text-align: center;
@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 42px 30px;
+    margin-bottom: 100px;
   }
 
   &__item {
@@ -32,5 +33,15 @@
         opacity: 1;
       }
     }
+  }
+
+  &__banners {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__banner {
+    max-width: 870px;
+    width: 100%;
   }
 }

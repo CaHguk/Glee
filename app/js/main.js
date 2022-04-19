@@ -7,4 +7,6 @@ $(function () {
   });
 
   var mixer = mixitup('.popular__list');
+
+  var mixer = mixitup('.design__list');
 });
