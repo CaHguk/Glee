@@ -1,10 +1,15 @@
 .blog {
 
+
   &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
+  }
+  
+  &__title {
+    margin-bottom: 12px;
   }
 
   &__link {
@@ -15,23 +20,24 @@
   }
 
   &__link-text {
-    padding-right: 10px;
+    padding-right: 16px;
   }
 
   &__list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -209px;
+    margin-bottom: -165px;
   }
 
   &__item {
     max-width: 370px;
+
     border-radius: 4px;
   }
 
   &__partners {
 
-    padding: 259px 0 50px;
+    padding: 259px 0 94px;
     background-color: #fef7f0;
   }
 }

@@ -1,5 +1,5 @@
 .popular {
-  margin-bottom: 50px; 
+  margin-bottom: 98px; 
 
   &__title {
     text-align: center;
@@ -8,8 +8,8 @@
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 42px 30px;
-    margin-bottom: 100px;
+    grid-gap: 32px 30px;
+    margin-bottom: 73px;
   }
 
   &__item {
